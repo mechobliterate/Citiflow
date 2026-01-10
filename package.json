@@ -1,0 +1,13 @@
+{
+  "name": "Citiflow",
+  "private": true,
+  "workspaces": ["packages/*", "apps/*"],
+  "scripts": {
+    "dev": "bun run --cwd apps/client dev",
+    "build": "bun run --cwd apps/client build",
+    "start": "bun run --cwd apps/client start"
+  },
+  "devDependencies": {
+    "@types/mapbox__polyline": "^1.0.5"
+  }
+}

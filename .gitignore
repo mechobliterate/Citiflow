@@ -1,0 +1,10 @@
+data/
+zips/
+docs/
+
+.DS_Store
+
+node_modules/
+routes.json
+cors.json
+duckdb_temp*
